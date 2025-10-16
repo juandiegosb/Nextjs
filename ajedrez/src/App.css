@@ -1,0 +1,61 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ddd;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #ccc;
+}
+
+.controls button.active {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.board {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+}
+
+.light {
+  background-color: #f0d9b5;
+}
+
+.dark {
+  background-color: #b58863;
+}
+
+.goal {
+  color: gold;
+  text-shadow: 0 0 5px #ffd700, 0 0 10px #ffea00;
+}
