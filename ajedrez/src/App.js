@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import { aStarKnight } from "./algorithm"; 
 const COLS = 8;
+const ROWS = 8;
 
 function App() {
   const [mode, setMode] = useState("obstacles");
